@@ -3,4 +3,32 @@
 }
 body{
     background-color: #DBDDE6;
+    margin-top: 0;
+    
 }
+.container{
+    display: flex;
+}
+.trapezium-main {
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    width: 79.5%;
+    height: 8vh;
+    background-color: #EAECF6;
+    ;
+  }
+.trapezium2 {
+    transform: matrix(1.08,0,0.2,1,0,0);
+    
+    width: 10%;
+    height: 8vh;
+    background-color: #DBDDE6;
+    padding: 20px;
+}
+.trapezium3 {
+    transform: matrix(1.08,0,-0.2,1,0,0);
+    width: 10%;
+    height: 8vh;
+    background-color: #DBDDE6;
+    padding: 20px;
+  }  
